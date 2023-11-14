@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating the html</title>
+</head>
+<body style="background-color: black;color:red">
+    
+</body>
+<script>
+    const div=document.createElement('div');
+    console.log(div);
+    div.className='main';
+    div.id='1';
+    div.setAttribute("title",'generating title');
+    div.style.backgroundColor='blue';
+    div.style.padding='12px';
+
+    div.innerText="This is a adding text"; 
+    //OR
+    // const addText=document.createTextNode("this is a adding Text");
+    // div.appendChild(addText);
+
+    document.body.appendChild(div);
+</script>
+</html>
