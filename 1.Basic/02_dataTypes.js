@@ -38,8 +38,8 @@ let isLogin=false;
 
 // console.log(id === anotherId);
 
-const bigNumber=42452243254362878474n; // last mae n laga dene se number bigInt le lega;
-console.log(bigNumber);
+// const bigNumber=42452243254362878474n; // last mae n laga dene se number bigInt le lega;
+// console.log(bigNumber);
 
 
 
@@ -61,3 +61,30 @@ console.log(bigNumber);
 // //-------- functions ---------
 // function a(){};   //--function statement/function declarations
 // var a=function (){}; //---function expression
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++
+ 
+//Stack(primitive) ,Heap(Non-Primitive)
+
+let a="bikash";
+
+let another=a;
+another="sah";
+
+//....object....
+let userOne={
+    name:"biku",
+    age:23
+}
+
+let userTwo=userOne;
+
+userTwo.name="okay";
+console.log(userOne.name,userTwo.name);
+
+// Heap main reference milte hain
+// stack mai copy of varaible aate hain
+ 
